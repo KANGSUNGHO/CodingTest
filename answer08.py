@@ -25,6 +25,5 @@ def solution(answers):
         if answer == friend3[id%len(friend3)]:
             score[2] += 1
 
-
         return [i+1 for i in range(3) if socre[i] == max(score)]
 
